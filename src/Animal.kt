@@ -1,5 +1,6 @@
-class Animal(
-    val color: String,
-    val age: Int,
-    val type: String
+data class Animal(
+    private val type: String,
+    private val age: Int,
+    private val color: String,
+    private val name: String
 )
